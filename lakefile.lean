@@ -5,20 +5,6 @@ package «afferent-spinners» where
   version := v!"0.1.0"
 
 require crucible from "../../testing/crucible"
-require plausible from "../afferent-math/.lake/packages/plausible"
-require chronos from "../../util/chronos"
-require chronicle from "../../web/chronicle"
-require wisp from "../../network/wisp"
-require oracle from "../../network/oracle"
-require reactive from "../../data/reactive"
-require linalg from "../../math/linalg"
-require sift from "../../util/sift"
-require staple from "../../util/staple"
-require shader from "../shader"
-require tincture from "../tincture"
-require trellis from "../trellis"
-require assimptor from "../assimptor"
-require raster from "../raster"
 require afferent from "../afferent"
 
 -- Common link arguments for executables (macOS frameworks + curl)
