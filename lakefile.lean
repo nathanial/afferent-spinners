@@ -4,8 +4,8 @@ open Lake DSL
 package «afferent-spinners» where
   version := v!"0.1.0"
 
-require crucible from "../../testing/crucible"
-require afferent from "../afferent"
+require crucible from git "https://github.com/nathanial/crucible" @ "v0.0.1"
+require afferent from git "https://github.com/nathanial/afferent" @ "v0.0.17"
 
 -- Common link arguments for executables (macOS frameworks + curl)
 def commonLinkArgs : Array String := #[
