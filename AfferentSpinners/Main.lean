@@ -1,5 +1,5 @@
-namespace AfferentSpinners
+import AfferentSpinners.Canopy.Widget.Display.Spinner
 
--- Your code here
+namespace AfferentSpinners
 
 end AfferentSpinners

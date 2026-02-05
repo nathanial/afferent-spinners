@@ -1,8 +1,10 @@
 import Crucible
+
 open Crucible
 
-suite "afferent-spinners" do
-  test "placeholder" do
-    check (1 + 1 = 2)
+testSuite "afferent-spinners"
+
+test "placeholder" := do
+  shouldBe (1 + 1) 2
 
 def main : IO UInt32 := runAllSuites
